@@ -1,0 +1,32 @@
+# dependencies
+/node_modules
+
+# testing
+/.nyc_output/
+/coverage
+
+# browser bundles
+/public/static/
+/public/stats.html
+
+# misc
+/tmp
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+.idea
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# preserved
+!.gitkeep
+
+
+# ignore parameters in here
+*database.constants.ts*
+database/connection
